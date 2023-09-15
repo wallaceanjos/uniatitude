@@ -3103,7 +3103,7 @@ a.logo:hover{
 
 /* Hover state */
 .no-mobile .team-item:hover .team-item-image:after{
-    background: #f4f4f4dd;
+    background: #f4f4f4aa;
 }
 .no-mobile .team-item:hover .team-item-image img{
     filter:blur(14px);
@@ -6686,6 +6686,9 @@ section:hover .small-item-carousel .owl-next{
 }
 .ratio-16x9{
     aspect-ratio: 16/9;
+}
+.ratio-1x1{
+    aspect-ratio: 1/1;
 }
 .radius-16{ border-radius:16px; }
 .glass{ opacity: .5; };
