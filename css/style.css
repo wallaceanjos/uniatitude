@@ -217,7 +217,7 @@ Section Text:       15px/1.7 "Raleway", arial, sans-serif;
 }
 
 .full-wrapper {
-    margin: 0 2%;
+    padding: 0 2%;
 }
 .container-fluid{
     max-width: 1170px;
@@ -538,6 +538,15 @@ hr.black{
     color: #111;
 }
 .title-font{ font-family: 'built_titlingbold';}
+.header-font-size{
+    font-size: 15vw;
+}
+
+@media only screen and (min-width:600px){
+    .header-font-size{
+        font-size: 96px;
+    }
+}
 
 .dropcap{
     float: left;
@@ -1529,7 +1538,7 @@ a.bg-video-button-muted{
 .nav-logo-wrap .logo{
     display: table-cell;
     vertical-align: middle;
-    max-width: 118px;
+    max-width: 164px;
     height: 75px;
 
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1977,7 +1986,7 @@ a.logo:hover{
 }
 
 .main-nav.mobile-on.dark .inner-nav{
-    border-top: 1px solid rgba(100,100,100, .4);
+    border-top: 0px solid rgba(100,100,100, .4);
 }
 
 .main-nav.dark .logo,
@@ -6693,3 +6702,5 @@ section:hover .small-item-carousel .owl-next{
 }
 .radius-16{ border-radius:16px; }
 .glass{ opacity: .5; };
+
+
